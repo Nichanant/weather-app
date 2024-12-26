@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: "Caveat", serif;
 }
 
 body {
@@ -32,10 +34,10 @@ body {
     outline: 0;
     background-color: #ebfffc;
     columns: #555;
-    padding: 10px 25px;
+    padding: 5px 20px;
     height: 60px;
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 35px;
     margin-right: 3px;
     flex-grow: 1;
 }
@@ -61,7 +63,7 @@ body {
 }
 
 .weather h5 {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 400;
     margin-top: -10px;
 }
@@ -86,7 +88,7 @@ body {
 }
 
 .humidity, .wind {
-    font-size: 20px;
+    font-size: 35px;
     margin-top: -10px;
 }
 
@@ -96,7 +98,7 @@ body {
 
 .error {
     width: 250px;
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
     background:linear-gradient(90deg ,rgb(213, 0, 0, 1), rgb(11, 0, 0, 0));
     border-radius: 10px;
