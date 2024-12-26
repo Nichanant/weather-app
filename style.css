@@ -28,7 +28,6 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
-    outline: 1px solid red;
 }
 
 .search input {
